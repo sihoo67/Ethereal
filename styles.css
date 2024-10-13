@@ -37,3 +37,18 @@ p {
     font-style: italic; /* 저자명 기울임 */
     margin-top: 10px;
 }
+
+button {
+    background-color: #f5e0a2; /* 약한 노란색 */
+    color: #333; /* 텍스트 색상 */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 부드러운 전환 */
+}
+
+button:hover {
+    background-color: #e0c76d; /* 호버 시 조금 더 진한 노란색 */
+}
